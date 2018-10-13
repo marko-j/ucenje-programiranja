@@ -31,7 +31,7 @@ function izracunajdane() {
 
 
 
-  p1.innerText = ("VREME POTREBNO DA BUDETE FUNKCIONALNI POCETNIK JE U PROGRAMIRANJU JE:") + brojGodinaPocetnik.toFixed() + "\xa0" + "godina/e" + "\xa0" + "i" + "\xa0" + finMeseciPocetnik + "\xa0" + "meseci" + "\xa0" + "i" + "\xa0" + ukupniDaniPocetnik.toFixed() + "\xa0" + "dana";
+  p1.innerText = ("VREME POTREBNO DA BUDETE FUNKCIONALNI POCETNIK U PROGRAMIRANJU JE:") + brojGodinaPocetnik.toFixed() + "\xa0" + "godina/e" + "\xa0" + "i" + "\xa0" + finMeseciPocetnik + "\xa0" + "meseci" + "\xa0" + "i" + "\xa0" + ukupniDaniPocetnik.toFixed() + "\xa0" + "dana";
 
   p2.innerText = ("VREME POTREBNO DA BUDETE EKSPERT U PROGRAMIRANJU JE:") + brojGodinaEkspert.toFixed() + "\xa0" + "godina" + "\xa0" + "i" + "\xa0" + finMeseciEkspert + "\xa0" + "meseci" + "\xa0" + "i" + "\xa0" + ukupnoDanaEkspert.toFixed() + "\xa0" + "dana";
 }
