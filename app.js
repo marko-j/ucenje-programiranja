@@ -21,11 +21,11 @@ function formatirajIspis(danaPocetnik, danaEkspert) {
 
   const godinaPocetnik = Math.floor(danaPocetnik / 365);
   const meseciPocetnik = Math.floor((danaPocetnik % 365) / 30);
-  const ostatakDanaPocetnik = (danaPocetnik % 365) % 30
+  const ostatakDanaPocetnik = Math.floor((danaPocetnik % 365) % 30)
 
   const godinaEkspert = Math.floor(danaEkspert / 365)
   const meseciEkspert = Math.floor((danaEkspert % 365) / 30)
-  const ostatakDanaEkspert = (danaEkspert % 365) % 30
+  const ostatakDanaEkspert = Math.floor((danaEkspert % 365) % 30)
 
   p1.innerText = `Do funkcionalnog početnika potrebno vam je ${godinaPocetnik} godina, ${meseciPocetnik} mesec/i, ${ostatakDanaPocetnik} dana učenja.`
   p2.innerText = `Do eksperta vam je potrebno ${godinaEkspert} godina, ${meseciEkspert} mesec/i, ${ostatakDanaEkspert} dana učenja.`
